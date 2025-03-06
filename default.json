@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "configMigration": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardLabels": [
+    "dependencies",
+    "tracker"
+  ],
+  "dependencyDashboardTitle": "🤖 Renovate Dashboard 🤖",
+  "enabled": true,
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":rebaseStalePrs",
+    ":disableRateLimiting",
+    "github>journeyover/.github//renovate/labels.json",
+    "github>journeyover/.github//renovate/groups.json"
+  ],
+  "forkProcessing": "enabled",
+  "rebaseWhen": "conflicted",
+  "timezone": "America/Chicago"
+}

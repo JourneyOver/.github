@@ -1,0 +1,143 @@
+labels:
+  # 🔴 Bug & Issue Tracking
+  - name: "bug"
+    color: "d73a4a"
+    description: "Something isn't working as expected"
+
+  - name: "critical bug"
+    color: "b60205"
+    description: "Severe issue that requires immediate attention"
+
+  - name: "security"
+    color: "ff0000"
+    description: "Security vulnerability or issue"
+
+  - name: "unable to reproduce"
+    color: "bfbfbf"
+    description: "Issue could not be replicated with the provided details"
+
+  # 🟡 Feature Requests & Enhancements
+  - name: "feature request"
+    color: "0e8a16"
+    description: "Proposed new feature or functionality"
+
+  - name: "enhancement"
+    color: "a2eeef"
+    description: "Improvement to an existing feature"
+
+  - name: "performance"
+    color: "ffcc00"
+    description: "Optimization or performance improvements"
+
+  # 📖 Documentation
+  - name: "documentation"
+    color: "0075ca"
+    description: "Changes or updates to documentation"
+
+  - name: "good first issue"
+    color: "7057ff"
+    description: "Great for first-time contributors"
+
+  # 🚦 Status Labels
+  - name: "in progress"
+    color: "1d76db"
+    description: "Actively being worked on"
+
+  - name: "blocked"
+    color: "ee0701"
+    description: "Cannot proceed due to external factors"
+
+  - name: "needs discussion"
+    color: "5319e7"
+    description: "Requires further clarification or team discussion"
+
+  # ⚡ Priority Labels
+  - name: "priority: high"
+    color: "b60205"
+    description: "Top priority issue, requires immediate attention"
+
+  - name: "priority: medium"
+    color: "fbca04"
+    description: "Moderate priority, should be addressed soon"
+
+  - name: "priority: low"
+    color: "c2e0c6"
+    description: "Low priority, can be addressed later"
+
+  # 🔄 Pull Request Labels
+  - name: "needs review"
+    color: "0366d6"
+    description: "PR needs review and approval"
+
+  - name: "approved"
+    color: "0e8a16"
+    description: "PR has been reviewed and approved"
+
+  - name: "changes requested"
+    color: "d93f0b"
+    description: "PR needs updates before merging"
+
+  - name: "stale"
+    color: "cccccc"
+    description: "Issue or PR is inactive and might be closed"
+
+  # 🎨 UI/UX Labels
+  - name: "UI/UX"
+    color: "ffadad"
+    description: "Design or user experience-related changes"
+
+  - name: "accessibility"
+    color: "a1caf1"
+    description: "Improvements for accessibility compliance"
+
+  # ⚙️ DevOps & CI/CD
+  - name: "CI/CD"
+    color: "6f42c1"
+    description: "Continuous Integration / Deployment related"
+
+  - name: "dependencies"
+    color: "0366d6"
+    description: "Dependency updates or changes"
+
+  - name: "automation"
+    color: "5319e7"
+    description: "Automation tasks and scripts"
+
+  # 🗑️ Cleanup & Maintenance
+  - name: "refactor"
+    color: "ff9f1c"
+    description: "Code improvements without feature changes"
+
+  - name: "deprecated"
+    color: "f9d0c4"
+    description: "Deprecated code or feature removal"
+
+  - name: "wontfix"
+    color: "ffffff"
+    description: "This issue will not be fixed or implemented"
+
+  # 🌍 Community & Meta
+  - name: "help wanted"
+    color: "008672"
+    description: "Looking for contributors to assist"
+
+  - name: "question"
+    color: "d876e3"
+    description: "General question or clarification needed"
+
+  - name: "discussion"
+    color: "cfd3d7"
+    description: "Open-ended discussion, brainstorming"
+
+  # 🏷️ Semantic Versioning Labels
+  - name: "type/major"
+    color: "f6412d"
+
+  - name: "type/minor"
+    color: "ff9800"
+
+  - name: "type/patch"
+    color: "ffec19"
+
+  - name: "type/digest"
+    color: "ffec19"
