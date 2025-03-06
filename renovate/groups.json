@@ -5,9 +5,6 @@
       "automerge": false,
       "automergeStrategy": "squash",
       "automergeType": "pr",
-      "extends": [
-        "schedule:earlyMondays"
-      ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
       "matchPackageNames": [
@@ -23,9 +20,6 @@
       "automerge": false,
       "automergeStrategy": "squash",
       "automergeType": "pr",
-      "extends": [
-        "schedule:earlyMondays"
-      ],
       "groupName": "all major dependencies",
       "groupSlug": "all-major",
       "matchPackageNames": [
