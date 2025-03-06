@@ -1,22 +1,21 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "labels": ["dependencies"],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "labels": ["type/major"]
+      "labels": ["type/major", "dependencies"]
     },
     {
       "matchUpdateTypes": ["minor"],
-      "labels": ["type/minor"]
+      "labels": ["type/minor", "dependencies"]
     },
     {
       "matchUpdateTypes": ["patch"],
-      "labels": ["type/patch"]
+      "labels": ["type/patch", "dependencies"]
     },
     {
       "matchUpdateTypes": ["digest"],
-      "labels": ["type/digest"]
+      "labels": ["type/digest", "dependencies"]
     }
   ]
 }
