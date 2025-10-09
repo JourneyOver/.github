@@ -18,5 +18,6 @@
   ],
   "forkProcessing": "enabled",
   "rebaseWhen": "conflicted",
+  "separateMinorPatch": false,
   "timezone": "America/Chicago"
 }
